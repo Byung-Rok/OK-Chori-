@@ -27,9 +27,7 @@ public class Main {
 				std[a] = Integer.parseInt(st.nextToken());
 			}
 			
-			for(int a=1;a<=N;a++) {
-				goDFS(a);
-			}
+			for(int a=1;a<=N;a++) goDFS(a);
 			bw.append(N-count+"\n");
 		}
         bw.flush();
