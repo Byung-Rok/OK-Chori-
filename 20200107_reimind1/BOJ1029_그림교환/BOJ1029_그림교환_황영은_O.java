@@ -23,6 +23,7 @@ public class Main {
 		dfs(1, 0, 0, 1);
 		System.out.println(result);
 	}
+	
 	private static void dfs(int v, int idx, int cost, int cnt) {
 		if(dp[idx][v] >= cnt) return;
 		boolean isLast = false;
